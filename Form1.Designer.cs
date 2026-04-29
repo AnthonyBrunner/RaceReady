@@ -197,6 +197,7 @@
             calculateButton.TabIndex = 17;
             calculateButton.Text = "Calculate";
             calculateButton.UseVisualStyleBackColor = true;
+            calculateButton.Click += calculateButton_Click;
             // 
             // exitButton
             // 
