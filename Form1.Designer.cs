@@ -41,6 +41,8 @@
             resultsTextBox = new TextBox();
             calculateButton = new Button();
             exitButton = new Button();
+            chargedLabel = new Label();
+            chargedComboBox = new ComboBox();
             SuspendLayout();
             // 
             // tiresLabel
@@ -119,7 +121,7 @@
             // resultsLabel
             // 
             resultsLabel.AutoSize = true;
-            resultsLabel.Location = new Point(12, 135);
+            resultsLabel.Location = new Point(12, 177);
             resultsLabel.Name = "resultsLabel";
             resultsLabel.Size = new Size(58, 20);
             resultsLabel.TabIndex = 15;
@@ -127,7 +129,7 @@
             // 
             // resultsTextBox
             // 
-            resultsTextBox.Location = new Point(89, 128);
+            resultsTextBox.Location = new Point(89, 170);
             resultsTextBox.Name = "resultsTextBox";
             resultsTextBox.ReadOnly = true;
             resultsTextBox.Size = new Size(125, 27);
@@ -135,29 +137,49 @@
             // 
             // calculateButton
             // 
-            calculateButton.Location = new Point(18, 180);
+            calculateButton.Location = new Point(18, 222);
             calculateButton.Name = "calculateButton";
             calculateButton.Size = new Size(94, 29);
-            calculateButton.TabIndex = 5;
+            calculateButton.TabIndex = 6;
             calculateButton.Text = "Calculate";
             calculateButton.UseVisualStyleBackColor = true;
             calculateButton.Click += calculateButton_Click;
             // 
             // exitButton
             // 
-            exitButton.Location = new Point(138, 180);
+            exitButton.Location = new Point(138, 222);
             exitButton.Name = "exitButton";
             exitButton.Size = new Size(94, 29);
-            exitButton.TabIndex = 6;
+            exitButton.TabIndex = 7;
             exitButton.Text = "Exit";
             exitButton.UseVisualStyleBackColor = true;
             exitButton.Click += exitButton_Click;
+            // 
+            // chargedLabel
+            // 
+            chargedLabel.AutoSize = true;
+            chargedLabel.Location = new Point(15, 131);
+            chargedLabel.Name = "chargedLabel";
+            chargedLabel.Size = new Size(72, 20);
+            chargedLabel.TabIndex = 17;
+            chargedLabel.Text = "Charged?";
+            // 
+            // chargedComboBox
+            // 
+            chargedComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
+            chargedComboBox.FormattingEnabled = true;
+            chargedComboBox.Location = new Point(89, 123);
+            chargedComboBox.Name = "chargedComboBox";
+            chargedComboBox.Size = new Size(57, 28);
+            chargedComboBox.TabIndex = 5;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(253, 233);
+            ClientSize = new Size(253, 279);
+            Controls.Add(chargedComboBox);
+            Controls.Add(chargedLabel);
             Controls.Add(exitButton);
             Controls.Add(calculateButton);
             Controls.Add(resultsTextBox);
@@ -192,5 +214,7 @@
         private TextBox resultsTextBox;
         private Button calculateButton;
         private Button exitButton;
+        private Label chargedLabel;
+        private ComboBox chargedComboBox;
     }
 }

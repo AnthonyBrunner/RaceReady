@@ -5,6 +5,11 @@ namespace RaceReady
         public Form1()
         {
             InitializeComponent();
+
+            // Add single items
+            chargedComboBox.Items.Add("YES");
+            chargedComboBox.Items.Add("NO");
+
         }
 
         private void calculateButton_Click(object sender, EventArgs e)
@@ -40,7 +45,7 @@ namespace RaceReady
             }
 
             // Display the result in the result
-            if (tiresReady)
+            if (tiresReady && string.Equals(chargedComboBox.SelectedItem?.ToString(), "YES", StringComparison.OrdinalIgnoreCase))
             {
                 resultsTextBox.Text = "Ready!";
             }
