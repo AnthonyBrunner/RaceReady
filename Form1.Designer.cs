@@ -28,235 +28,235 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            comboBox1 = new ComboBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            label7 = new Label();
-            comboBox2 = new ComboBox();
-            label8 = new Label();
-            comboBox3 = new ComboBox();
-            label9 = new Label();
-            textBox5 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
+            tiresLabel = new Label();
+            frontLeftLabel = new Label();
+            frontRightLabel = new Label();
+            rearRightLabel = new Label();
+            rearLeftLabel = new Label();
+            fueledLabel = new Label();
+            fueledComboBox = new ComboBox();
+            frontLeftTextBox = new TextBox();
+            rearLeftTextBox = new TextBox();
+            frontRightTextBox = new TextBox();
+            rearRightTextBox = new TextBox();
+            boltedLabel = new Label();
+            boltedComboBox = new ComboBox();
+            chargedLabel = new Label();
+            chargedComboBox = new ComboBox();
+            resultsLabel = new Label();
+            resultsTextBox = new TextBox();
+            calculateButton = new Button();
+            exitButton = new Button();
             SuspendLayout();
             // 
-            // label1
+            // tiresLabel
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(12, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            tiresLabel.AutoSize = true;
+            tiresLabel.Location = new Point(12, 9);
+            tiresLabel.Name = "tiresLabel";
+            tiresLabel.Size = new Size(40, 20);
+            tiresLabel.TabIndex = 0;
+            tiresLabel.Text = "Tires";
             // 
-            // label2
+            // frontLeftLabel
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(12, 43);
-            label2.Name = "label2";
-            label2.Size = new Size(50, 20);
-            label2.TabIndex = 1;
-            label2.Text = "label2";
+            frontLeftLabel.AutoSize = true;
+            frontLeftLabel.Location = new Point(12, 43);
+            frontLeftLabel.Name = "frontLeftLabel";
+            frontLeftLabel.Size = new Size(29, 20);
+            frontLeftLabel.TabIndex = 1;
+            frontLeftLabel.Text = "F/L";
             // 
-            // label3
+            // frontRightLabel
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(125, 43);
-            label3.Name = "label3";
-            label3.Size = new Size(50, 20);
-            label3.TabIndex = 2;
-            label3.Text = "label3";
+            frontRightLabel.AutoSize = true;
+            frontRightLabel.Location = new Point(125, 43);
+            frontRightLabel.Name = "frontRightLabel";
+            frontRightLabel.Size = new Size(31, 20);
+            frontRightLabel.TabIndex = 2;
+            frontRightLabel.Text = "F/R";
             // 
-            // label4
+            // rearRightLabel
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(125, 85);
-            label4.Name = "label4";
-            label4.Size = new Size(50, 20);
-            label4.TabIndex = 3;
-            label4.Text = "label4";
+            rearRightLabel.AutoSize = true;
+            rearRightLabel.Location = new Point(125, 85);
+            rearRightLabel.Name = "rearRightLabel";
+            rearRightLabel.Size = new Size(33, 20);
+            rearRightLabel.TabIndex = 3;
+            rearRightLabel.Text = "R/R";
             // 
-            // label5
+            // rearLeftLabel
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(12, 85);
-            label5.Name = "label5";
-            label5.Size = new Size(50, 20);
-            label5.TabIndex = 4;
-            label5.Text = "label5";
+            rearLeftLabel.AutoSize = true;
+            rearLeftLabel.Location = new Point(12, 85);
+            rearLeftLabel.Name = "rearLeftLabel";
+            rearLeftLabel.Size = new Size(31, 20);
+            rearLeftLabel.TabIndex = 4;
+            rearLeftLabel.Text = "R/L";
             // 
-            // label6
+            // fueledLabel
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(12, 149);
-            label6.Name = "label6";
-            label6.Size = new Size(50, 20);
-            label6.TabIndex = 5;
-            label6.Text = "label6";
+            fueledLabel.AutoSize = true;
+            fueledLabel.Location = new Point(12, 149);
+            fueledLabel.Name = "fueledLabel";
+            fueledLabel.Size = new Size(60, 20);
+            fueledLabel.TabIndex = 5;
+            fueledLabel.Text = "Fueled?";
             // 
-            // comboBox1
+            // fueledComboBox
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(68, 141);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(56, 28);
-            comboBox1.TabIndex = 6;
+            fueledComboBox.FormattingEnabled = true;
+            fueledComboBox.Location = new Point(78, 141);
+            fueledComboBox.Name = "fueledComboBox";
+            fueledComboBox.Size = new Size(56, 28);
+            fueledComboBox.TabIndex = 6;
             // 
-            // textBox1
+            // frontLeftTextBox
             // 
-            textBox1.Location = new Point(68, 36);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(44, 27);
-            textBox1.TabIndex = 7;
+            frontLeftTextBox.Location = new Point(68, 36);
+            frontLeftTextBox.Name = "frontLeftTextBox";
+            frontLeftTextBox.Size = new Size(44, 27);
+            frontLeftTextBox.TabIndex = 7;
             // 
-            // textBox2
+            // rearLeftTextBox
             // 
-            textBox2.Location = new Point(68, 78);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(44, 27);
-            textBox2.TabIndex = 8;
+            rearLeftTextBox.Location = new Point(68, 78);
+            rearLeftTextBox.Name = "rearLeftTextBox";
+            rearLeftTextBox.Size = new Size(44, 27);
+            rearLeftTextBox.TabIndex = 8;
             // 
-            // textBox3
+            // frontRightTextBox
             // 
-            textBox3.Location = new Point(181, 36);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(42, 27);
-            textBox3.TabIndex = 9;
+            frontRightTextBox.Location = new Point(181, 36);
+            frontRightTextBox.Name = "frontRightTextBox";
+            frontRightTextBox.Size = new Size(42, 27);
+            frontRightTextBox.TabIndex = 9;
             // 
-            // textBox4
+            // rearRightTextBox
             // 
-            textBox4.Location = new Point(181, 78);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(42, 27);
-            textBox4.TabIndex = 10;
+            rearRightTextBox.Location = new Point(181, 78);
+            rearRightTextBox.Name = "rearRightTextBox";
+            rearRightTextBox.Size = new Size(42, 27);
+            rearRightTextBox.TabIndex = 10;
             // 
-            // label7
+            // boltedLabel
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(144, 149);
-            label7.Name = "label7";
-            label7.Size = new Size(50, 20);
-            label7.TabIndex = 11;
-            label7.Text = "label7";
+            boltedLabel.AutoSize = true;
+            boltedLabel.Location = new Point(144, 149);
+            boltedLabel.Name = "boltedLabel";
+            boltedLabel.Size = new Size(60, 20);
+            boltedLabel.TabIndex = 11;
+            boltedLabel.Text = "Bolted?";
             // 
-            // comboBox2
+            // boltedComboBox
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(200, 141);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(56, 28);
-            comboBox2.TabIndex = 12;
+            boltedComboBox.FormattingEnabled = true;
+            boltedComboBox.Location = new Point(210, 141);
+            boltedComboBox.Name = "boltedComboBox";
+            boltedComboBox.Size = new Size(56, 28);
+            boltedComboBox.TabIndex = 12;
             // 
-            // label8
+            // chargedLabel
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(12, 199);
-            label8.Name = "label8";
-            label8.Size = new Size(50, 20);
-            label8.TabIndex = 13;
-            label8.Text = "label8";
+            chargedLabel.AutoSize = true;
+            chargedLabel.Location = new Point(12, 199);
+            chargedLabel.Name = "chargedLabel";
+            chargedLabel.Size = new Size(72, 20);
+            chargedLabel.TabIndex = 13;
+            chargedLabel.Text = "Charged?";
             // 
-            // comboBox3
+            // chargedComboBox
             // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(68, 191);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(56, 28);
-            comboBox3.TabIndex = 14;
+            chargedComboBox.FormattingEnabled = true;
+            chargedComboBox.Location = new Point(90, 191);
+            chargedComboBox.Name = "chargedComboBox";
+            chargedComboBox.Size = new Size(56, 28);
+            chargedComboBox.TabIndex = 14;
             // 
-            // label9
+            // resultsLabel
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(12, 249);
-            label9.Name = "label9";
-            label9.Size = new Size(50, 20);
-            label9.TabIndex = 15;
-            label9.Text = "label9";
+            resultsLabel.AutoSize = true;
+            resultsLabel.Location = new Point(12, 249);
+            resultsLabel.Name = "resultsLabel";
+            resultsLabel.Size = new Size(58, 20);
+            resultsLabel.TabIndex = 15;
+            resultsLabel.Text = "Results:";
             // 
-            // textBox5
+            // resultsTextBox
             // 
-            textBox5.Location = new Point(69, 242);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(125, 27);
-            textBox5.TabIndex = 16;
+            resultsTextBox.Location = new Point(69, 242);
+            resultsTextBox.Name = "resultsTextBox";
+            resultsTextBox.Size = new Size(125, 27);
+            resultsTextBox.TabIndex = 16;
             // 
-            // button1
+            // calculateButton
             // 
-            button1.Location = new Point(18, 296);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 17;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            calculateButton.Location = new Point(18, 296);
+            calculateButton.Name = "calculateButton";
+            calculateButton.Size = new Size(94, 29);
+            calculateButton.TabIndex = 17;
+            calculateButton.Text = "Calculate";
+            calculateButton.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // exitButton
             // 
-            button2.Location = new Point(144, 296);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 18;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            exitButton.Location = new Point(144, 296);
+            exitButton.Name = "exitButton";
+            exitButton.Size = new Size(94, 29);
+            exitButton.TabIndex = 18;
+            exitButton.Text = "Exit";
+            exitButton.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(290, 361);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox5);
-            Controls.Add(label9);
-            Controls.Add(comboBox3);
-            Controls.Add(label8);
-            Controls.Add(comboBox2);
-            Controls.Add(label7);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(comboBox1);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(exitButton);
+            Controls.Add(calculateButton);
+            Controls.Add(resultsTextBox);
+            Controls.Add(resultsLabel);
+            Controls.Add(chargedComboBox);
+            Controls.Add(chargedLabel);
+            Controls.Add(boltedComboBox);
+            Controls.Add(boltedLabel);
+            Controls.Add(rearRightTextBox);
+            Controls.Add(frontRightTextBox);
+            Controls.Add(rearLeftTextBox);
+            Controls.Add(frontLeftTextBox);
+            Controls.Add(fueledComboBox);
+            Controls.Add(fueledLabel);
+            Controls.Add(rearLeftLabel);
+            Controls.Add(rearRightLabel);
+            Controls.Add(frontRightLabel);
+            Controls.Add(frontLeftLabel);
+            Controls.Add(tiresLabel);
             Name = "Form1";
-            Text = "Form1";
+            Text = "RaceReady";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private ComboBox comboBox1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private Label label7;
-        private ComboBox comboBox2;
-        private Label label8;
-        private ComboBox comboBox3;
-        private Label label9;
-        private TextBox textBox5;
-        private Button button1;
-        private Button button2;
+        private Label tiresLabel;
+        private Label frontLeftLabel;
+        private Label frontRightLabel;
+        private Label rearRightLabel;
+        private Label rearLeftLabel;
+        private Label fueledLabel;
+        private ComboBox fueledComboBox;
+        private TextBox frontLeftTextBox;
+        private TextBox rearLeftTextBox;
+        private TextBox frontRightTextBox;
+        private TextBox rearRightTextBox;
+        private Label boltedLabel;
+        private ComboBox boltedComboBox;
+        private Label chargedLabel;
+        private ComboBox chargedComboBox;
+        private Label resultsLabel;
+        private TextBox resultsTextBox;
+        private Button calculateButton;
+        private Button exitButton;
     }
 }
