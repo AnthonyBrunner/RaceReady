@@ -93,28 +93,28 @@
             frontLeftTextBox.Location = new Point(68, 36);
             frontLeftTextBox.Name = "frontLeftTextBox";
             frontLeftTextBox.Size = new Size(44, 27);
-            frontLeftTextBox.TabIndex = 7;
+            frontLeftTextBox.TabIndex = 1;
             // 
             // rearLeftTextBox
             // 
             rearLeftTextBox.Location = new Point(68, 78);
             rearLeftTextBox.Name = "rearLeftTextBox";
             rearLeftTextBox.Size = new Size(44, 27);
-            rearLeftTextBox.TabIndex = 8;
+            rearLeftTextBox.TabIndex = 3;
             // 
             // frontRightTextBox
             // 
             frontRightTextBox.Location = new Point(181, 36);
             frontRightTextBox.Name = "frontRightTextBox";
             frontRightTextBox.Size = new Size(42, 27);
-            frontRightTextBox.TabIndex = 9;
+            frontRightTextBox.TabIndex = 2;
             // 
             // rearRightTextBox
             // 
             rearRightTextBox.Location = new Point(181, 78);
             rearRightTextBox.Name = "rearRightTextBox";
             rearRightTextBox.Size = new Size(42, 27);
-            rearRightTextBox.TabIndex = 10;
+            rearRightTextBox.TabIndex = 4;
             // 
             // resultsLabel
             // 
@@ -138,7 +138,7 @@
             calculateButton.Location = new Point(18, 180);
             calculateButton.Name = "calculateButton";
             calculateButton.Size = new Size(94, 29);
-            calculateButton.TabIndex = 17;
+            calculateButton.TabIndex = 5;
             calculateButton.Text = "Calculate";
             calculateButton.UseVisualStyleBackColor = true;
             calculateButton.Click += calculateButton_Click;
@@ -148,9 +148,10 @@
             exitButton.Location = new Point(138, 180);
             exitButton.Name = "exitButton";
             exitButton.Size = new Size(94, 29);
-            exitButton.TabIndex = 18;
+            exitButton.TabIndex = 6;
             exitButton.Text = "Exit";
             exitButton.UseVisualStyleBackColor = true;
+            exitButton.Click += exitButton_Click;
             // 
             // Form1
             // 

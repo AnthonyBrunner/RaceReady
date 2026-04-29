@@ -39,7 +39,20 @@ namespace RaceReady
                 tiresReady = false;
             }
 
+            // Display the result in the result
+            if (tiresReady)
+            {
+                resultsTextBox.Text = "Ready!";
+            }
+            else
+            {
+                resultsTextBox.Text = "NOT ready!";
+            }
+        }
 
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
