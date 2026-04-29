@@ -33,16 +33,10 @@
             frontRightLabel = new Label();
             rearRightLabel = new Label();
             rearLeftLabel = new Label();
-            fueledLabel = new Label();
-            fueledComboBox = new ComboBox();
             frontLeftTextBox = new TextBox();
             rearLeftTextBox = new TextBox();
             frontRightTextBox = new TextBox();
             rearRightTextBox = new TextBox();
-            boltedLabel = new Label();
-            boltedComboBox = new ComboBox();
-            chargedLabel = new Label();
-            chargedComboBox = new ComboBox();
             resultsLabel = new Label();
             resultsTextBox = new TextBox();
             calculateButton = new Button();
@@ -94,23 +88,6 @@
             rearLeftLabel.TabIndex = 4;
             rearLeftLabel.Text = "R/L";
             // 
-            // fueledLabel
-            // 
-            fueledLabel.AutoSize = true;
-            fueledLabel.Location = new Point(12, 149);
-            fueledLabel.Name = "fueledLabel";
-            fueledLabel.Size = new Size(60, 20);
-            fueledLabel.TabIndex = 5;
-            fueledLabel.Text = "Fueled?";
-            // 
-            // fueledComboBox
-            // 
-            fueledComboBox.FormattingEnabled = true;
-            fueledComboBox.Location = new Point(78, 141);
-            fueledComboBox.Name = "fueledComboBox";
-            fueledComboBox.Size = new Size(56, 28);
-            fueledComboBox.TabIndex = 6;
-            // 
             // frontLeftTextBox
             // 
             frontLeftTextBox.Location = new Point(68, 36);
@@ -139,44 +116,10 @@
             rearRightTextBox.Size = new Size(42, 27);
             rearRightTextBox.TabIndex = 10;
             // 
-            // boltedLabel
-            // 
-            boltedLabel.AutoSize = true;
-            boltedLabel.Location = new Point(144, 149);
-            boltedLabel.Name = "boltedLabel";
-            boltedLabel.Size = new Size(60, 20);
-            boltedLabel.TabIndex = 11;
-            boltedLabel.Text = "Bolted?";
-            // 
-            // boltedComboBox
-            // 
-            boltedComboBox.FormattingEnabled = true;
-            boltedComboBox.Location = new Point(210, 141);
-            boltedComboBox.Name = "boltedComboBox";
-            boltedComboBox.Size = new Size(56, 28);
-            boltedComboBox.TabIndex = 12;
-            // 
-            // chargedLabel
-            // 
-            chargedLabel.AutoSize = true;
-            chargedLabel.Location = new Point(12, 199);
-            chargedLabel.Name = "chargedLabel";
-            chargedLabel.Size = new Size(72, 20);
-            chargedLabel.TabIndex = 13;
-            chargedLabel.Text = "Charged?";
-            // 
-            // chargedComboBox
-            // 
-            chargedComboBox.FormattingEnabled = true;
-            chargedComboBox.Location = new Point(90, 191);
-            chargedComboBox.Name = "chargedComboBox";
-            chargedComboBox.Size = new Size(56, 28);
-            chargedComboBox.TabIndex = 14;
-            // 
             // resultsLabel
             // 
             resultsLabel.AutoSize = true;
-            resultsLabel.Location = new Point(12, 249);
+            resultsLabel.Location = new Point(12, 135);
             resultsLabel.Name = "resultsLabel";
             resultsLabel.Size = new Size(58, 20);
             resultsLabel.TabIndex = 15;
@@ -184,14 +127,15 @@
             // 
             // resultsTextBox
             // 
-            resultsTextBox.Location = new Point(69, 242);
+            resultsTextBox.Location = new Point(89, 128);
             resultsTextBox.Name = "resultsTextBox";
+            resultsTextBox.ReadOnly = true;
             resultsTextBox.Size = new Size(125, 27);
             resultsTextBox.TabIndex = 16;
             // 
             // calculateButton
             // 
-            calculateButton.Location = new Point(18, 296);
+            calculateButton.Location = new Point(18, 180);
             calculateButton.Name = "calculateButton";
             calculateButton.Size = new Size(94, 29);
             calculateButton.TabIndex = 17;
@@ -201,7 +145,7 @@
             // 
             // exitButton
             // 
-            exitButton.Location = new Point(144, 296);
+            exitButton.Location = new Point(138, 180);
             exitButton.Name = "exitButton";
             exitButton.Size = new Size(94, 29);
             exitButton.TabIndex = 18;
@@ -212,21 +156,15 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(290, 361);
+            ClientSize = new Size(253, 233);
             Controls.Add(exitButton);
             Controls.Add(calculateButton);
             Controls.Add(resultsTextBox);
             Controls.Add(resultsLabel);
-            Controls.Add(chargedComboBox);
-            Controls.Add(chargedLabel);
-            Controls.Add(boltedComboBox);
-            Controls.Add(boltedLabel);
             Controls.Add(rearRightTextBox);
             Controls.Add(frontRightTextBox);
             Controls.Add(rearLeftTextBox);
             Controls.Add(frontLeftTextBox);
-            Controls.Add(fueledComboBox);
-            Controls.Add(fueledLabel);
             Controls.Add(rearLeftLabel);
             Controls.Add(rearRightLabel);
             Controls.Add(frontRightLabel);
@@ -245,16 +183,10 @@
         private Label frontRightLabel;
         private Label rearRightLabel;
         private Label rearLeftLabel;
-        private Label fueledLabel;
-        private ComboBox fueledComboBox;
         private TextBox frontLeftTextBox;
         private TextBox rearLeftTextBox;
         private TextBox frontRightTextBox;
         private TextBox rearRightTextBox;
-        private Label boltedLabel;
-        private ComboBox boltedComboBox;
-        private Label chargedLabel;
-        private ComboBox chargedComboBox;
         private Label resultsLabel;
         private TextBox resultsTextBox;
         private Button calculateButton;
